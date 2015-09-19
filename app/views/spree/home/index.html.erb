@@ -1,0 +1,12 @@
+
+<div data-hook="homepage_products">
+	<div class="container main-wrapper">
+  	<div class="row"><img src="assets/logo/logo.png" alt=""></div>
+  	<h1>Events</h1>
+  	<% cache(cache_key_for_products) do %>
+    <%= render :partial => 'spree/shared/products', :locals => { :products => @products } %>
+  <% end %>
+  </div>
+  
+</div>
+

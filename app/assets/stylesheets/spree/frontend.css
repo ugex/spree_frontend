@@ -1,0 +1,18 @@
+/*
+* This is a manifest file that includes stylesheets for spree_frontend
+ *= require spree/frontend/frontend_bootstrap
+ *= require_self
+ *= require_tree .
+*/
+.list-taxon-item{
+    clear:both;
+    list-style: none;
+    float: left;
+}
+
+.list-group.pull-left{
+	clear: both;
+}
+.menu-item{
+	float: left;
+}
