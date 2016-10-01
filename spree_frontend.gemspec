@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_api', version
+  s.add_dependency 'spree_api', '3.0.10'
   s.add_dependency 'spree_core', version
 
   s.add_dependency 'bootstrap-sass',  '~> 3.3.1'
