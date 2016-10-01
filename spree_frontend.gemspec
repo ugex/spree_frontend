@@ -1,5 +1,5 @@
 # encoding: UTF-8
-version = '3.0.4'
+version = '3.0.10'
 #File.read(File.expand_path("../../SPREE_VERSION", __FILE__)).strip
 
 Gem::Specification.new do |s|
